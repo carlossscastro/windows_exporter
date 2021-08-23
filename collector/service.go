@@ -6,7 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/newrelic-forks/windows_exporter/log"
+	"github.com/StackExchange/wmi"
+	"github.com/prometheus-community/windows_exporter/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/svc/mgr"
